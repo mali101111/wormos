@@ -1,0 +1,639 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.top-menu {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-left:200px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+h3
+{
+	font-weight:bold;
+}
+h4
+{
+	font-weight:bold;
+}
+.search-box button:hover {
+  background-color: #444;
+}
+
+.notification .notification-button {
+  padding: 5px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.notification .notification-button:hover {
+  background-color: #444;
+}
+
+.notification .badge {
+  background-color: red;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.left-nav {
+  background-color: #ddd; /* Adjust the background color as needed */
+  width: 117px;
+  height: 670px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.left-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-nav li {
+  padding: 10px;
+}
+
+.left-nav li a {
+  color: #333; /* Adjust the link color as needed */
+  text-decoration: none;
+}
+
+.left-nav li a:hover {
+  background-color: #ccc; /* Adjust the hover color as needed */
+}
+.extra-button {
+  margin: 10px; /* Adjust the margin as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  background-color:#176B87; /* Button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  float: right;
+  
+  
+}
+
+.extra-button:hover {
+  background-color: #444;
+  
+}
+
+.columnf {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowf {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rowf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnf {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+	margin-right:500px;
+  }
+}
+
+/* Style the counter cards */
+.cardf {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin-left:160px;
+  height:150px;
+  width:150px;
+}
+
+.cardf:hover
+{
+	outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+
+.columns {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.rows1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rows1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+	margin-right:200px;
+  }
+}
+
+/* Style the counter cards */
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin-left:1px;
+  width:150px;
+  height:150px;
+}
+
+.cards:hover
+{
+	outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+
+
+
+
+.columnt {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowt {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rowt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnt {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+	margin-right:200px;
+  }
+}
+
+/* Style the counter cards */
+.cardt {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin-left:1px;
+  width:150px;
+  height:150px;
+}
+
+.cardt:hover
+{
+	outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+
+
+
+.columnfs {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowfs {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rowfs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnfs {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+	margin-right:500px;
+  }
+}
+
+/* Style the counter cards */
+.cardfs {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin-left:1px;
+  width:150px;
+  height:150px;
+}
+
+.cardfs:hover
+{
+	outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-left:160px;
+width:500px;
+  height:500px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row2 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+margin-left:460px;
+  width:500px;
+  height:500px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column_2 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row_2 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row_1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column_2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+  margin-left: 220px; /* Adjust the margin to account for the width of the left navigation */
+  padding: 20px;
+}
